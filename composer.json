@@ -1,0 +1,27 @@
+{
+    "name": "ccmt/clix",
+    "description": "Wordpress Plugin for ChinmayaClix",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Radhika Vanjara & Suresh Bathala",
+            "email": "suresh.bathala@chinmayamission.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {      
+        "psr-4": {
+            "Ccmt\\Clix\\": [
+                "src/includes",
+                "src/admin",
+                "src/public",
+                "src/widget"
+
+            ]
+        }
+    },
+
+    "minimum-stability": "stable"
+}
